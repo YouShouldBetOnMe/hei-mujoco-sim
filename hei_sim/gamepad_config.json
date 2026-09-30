@@ -1,0 +1,7 @@
+{
+  "slot": 0,
+  "deadzone": 0.18,
+  "axes": {"forward": ["y", -1], "left": ["x", -1], "up": ["r", -1], "yaw": ["u", -1]},
+  "sdl_axes": {"forward": ["1", -1], "left": ["0", -1], "up": ["3", -1], "yaw": ["2", -1]},
+  "buttons": {"deadman": 5, "rotate_mode": 6, "open": 4, "close": 1, "switch_arm": 3, "record": 8, "save": 7, "discard": 2}
+}

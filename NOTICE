@@ -1,0 +1,19 @@
+HEI MuJoCo Simulation
+
+This distribution packages the local simulation and demonstration collector
+developed for the HEI ReBot Lift robot. Model assets and the scene builder are
+derived from https://github.com/lipengdong/hei-rebot-lift at commit
+40674132257099656a26ee7fd11cb67f80f25658.
+
+The upstream repository is distributed under Apache License 2.0, with the
+copyright notices retained in LICENSE and the source assets.
+
+The YCB 011 banana mesh and texture have separate attribution requirements:
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+See licenses/YCB_BANANA_SOURCE.md and the SOURCE.md beside the banana assets.
+The OBJ material reference is removed in memory during MuJoCo loading; the
+original model/texture files are retained.
+
+Local adaptations include physical free objects, contact/friction settings,
+NoSlip and multi-contact solver configuration, three robot-mounted cameras,
+position servos, optional fixed lift, and synchronized demonstration recording.

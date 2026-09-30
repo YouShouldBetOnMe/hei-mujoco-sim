@@ -1,0 +1,2 @@
+# Installing this repository also installs the pinned MuJoCo/NumPy versions.
+-e .[teleop]

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=78.1,<79", "wheel>=0.45,<1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hei-mujoco-sim"
+version = "0.1.0"
+description = "Reproducible HEI dual-arm MuJoCo scene with three onboard cameras and physical grasping"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = "Apache-2.0"
+dependencies = ["mujoco==3.5.0", "numpy==2.2.6"]
+
+[project.optional-dependencies]
+teleop = ["opencv-python==4.13.0.92", "pynput==1.8.1", "pygame==2.6.1; sys_platform != 'win32'"]
+
+[project.scripts]
+hei-mujoco = "hei_sim.portable:main"
+hei-collect = "hei_sim.collect:main"
+hei-grasp-check = "hei_sim.check_grasp:main"
+
+[project.urls]
+Repository = "https://github.com/YouShouldBetOnMe/hei-mujoco-sim"
+Issues = "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hei_sim"]
+
+[tool.setuptools.package-data]
+hei_sim = ["*.json", "assets/**/*"]

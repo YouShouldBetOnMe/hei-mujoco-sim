@@ -1,0 +1,9 @@
+* text=auto eol=lf
+# Keep hashed package resources byte-identical across Git checkouts.
+hei_sim/assets/** -text
+hei_sim/gamepad_config.json -text
+hei_sim/scene_reference.json -text
+*.STL binary -filter
+*.stl binary -filter
+*.png binary -filter
+*.jpg binary -filter

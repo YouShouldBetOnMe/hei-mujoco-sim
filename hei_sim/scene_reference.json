@@ -1,0 +1,249 @@
+{
+  "physics": {
+    "engine": "MuJoCo",
+    "version": "3.5.0",
+    "revision": 2,
+    "timestep": 0.002,
+    "fixed_lift_m": null,
+    "lift_dof_removed": false,
+    "solver": {
+      "multiccd": true,
+      "cone": "elliptic",
+      "impratio": 10,
+      "noslip_iterations": 5,
+      "iterations": 60
+    },
+    "collision": "robot-object, robot-environment, object-object; no robot self collision",
+    "object_mass_kg": [
+      0.12,
+      0.12,
+      0.12,
+      0.1
+    ],
+    "friction": [
+      0.8,
+      0.01,
+      0.001
+    ],
+    "condim": 6,
+    "banana_collision": "single convex hull",
+    "actuator_parameters": "approximate, not calibrated"
+  },
+  "cameras": {
+    "front": {
+      "parent": "lift_carriage_link",
+      "local_pos": [
+        0.12,
+        0.0,
+        0.3
+      ],
+      "local_quat_wxyz": [
+        0.6309497702823732,
+        0.3192215333911867,
+        -0.3192215333911867,
+        -0.6309497702823732
+      ],
+      "fovy": 70.0
+    },
+    "left_wrist": {
+      "parent": "b_left_link6",
+      "local_pos": [
+        0.04,
+        0.0,
+        0.14
+      ],
+      "local_quat_wxyz": [
+        0.6720979876761745,
+        0.21973687665395816,
+        -0.21973687665395816,
+        -0.6720979876761745
+      ],
+      "fovy": 85.0
+    },
+    "right_wrist": {
+      "parent": "a_right_link6",
+      "local_pos": [
+        0.04,
+        0.0,
+        0.14
+      ],
+      "local_quat_wxyz": [
+        0.6720979876761745,
+        0.21973687665395816,
+        -0.21973687665395816,
+        -0.6720979876761745
+      ],
+      "fovy": 85.0
+    }
+  },
+  "observation_cameras": [
+    "front",
+    "left_wrist",
+    "right_wrist"
+  ],
+  "excluded_cameras": [
+    "overview"
+  ],
+  "objects": {
+    "hei_object_cube_red": {
+      "body": "hei_object_cube_red",
+      "mass_kg": 0.12,
+      "geom_type": 6,
+      "initial_position": [
+        0.7,
+        -0.28,
+        0.8200000000000001
+      ],
+      "initial_quat_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.01,
+        0.001
+      ],
+      "condim": 6,
+      "contype": 1,
+      "conaffinity": 3,
+      "half_size_m": [
+        0.04,
+        0.04,
+        0.04
+      ],
+      "full_size_m": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "volume_m3": 0.0005120000000000001
+    },
+    "hei_object_cube_green": {
+      "body": "hei_object_cube_green",
+      "mass_kg": 0.12,
+      "geom_type": 6,
+      "initial_position": [
+        0.7,
+        0.0,
+        0.8200000000000001
+      ],
+      "initial_quat_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.01,
+        0.001
+      ],
+      "condim": 6,
+      "contype": 1,
+      "conaffinity": 3,
+      "half_size_m": [
+        0.04,
+        0.04,
+        0.04
+      ],
+      "full_size_m": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "volume_m3": 0.0005120000000000001
+    },
+    "hei_object_cube_blue": {
+      "body": "hei_object_cube_blue",
+      "mass_kg": 0.12,
+      "geom_type": 6,
+      "initial_position": [
+        0.7,
+        0.28,
+        0.8200000000000001
+      ],
+      "initial_quat_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "friction": [
+        0.8,
+        0.01,
+        0.001
+      ],
+      "condim": 6,
+      "contype": 1,
+      "conaffinity": 3,
+      "half_size_m": [
+        0.04,
+        0.04,
+        0.04
+      ],
+      "full_size_m": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "volume_m3": 0.0005120000000000001
+    },
+    "hei_object_banana": {
+      "body": "hei_object_banana",
+      "mass_kg": 0.1,
+      "geom_type": 7,
+      "initial_position": [
+        1.03,
+        0.0,
+        0.8
+      ],
+      "initial_quat_wxyz": [
+        0.9848157571781733,
+        0.0,
+        0.0,
+        0.17360277766666418
+      ],
+      "friction": [
+        0.8,
+        0.01,
+        0.001
+      ],
+      "condim": 6,
+      "contype": 1,
+      "conaffinity": 3,
+      "mesh_bbox_size_local_m": [
+        0.10894199872581907,
+        0.1784470021600434,
+        0.03673999959791832
+      ],
+      "collision_approximation": "single convex hull",
+      "bbox_is_not_solid_volume": true
+    }
+  },
+  "timestep": 0.002,
+  "integrator": 3,
+  "iterations": 60,
+  "cone": 1,
+  "impratio": 10.0,
+  "noslip_iterations": 5,
+  "multiccd": true,
+  "table_half_size_m": [
+    0.48,
+    0.62,
+    0.035
+  ],
+  "table_friction": [
+    0.8,
+    0.01,
+    0.001
+  ],
+  "robot_collision_friction": [
+    [
+      1.0,
+      0.01,
+      0.001
+    ]
+  ]
+}

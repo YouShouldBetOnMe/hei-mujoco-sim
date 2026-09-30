@@ -1,0 +1,5 @@
+include README.md LICENSE NOTICE requirements.txt environment.yml scene.xml
+recursive-include hei_sim *.json *.py *.urdf *.STL *.obj *.mtl *.png *.md
+recursive-include licenses *.md
+recursive-include docs *.md *.png *.json
+recursive-include scripts *.py *.ps1

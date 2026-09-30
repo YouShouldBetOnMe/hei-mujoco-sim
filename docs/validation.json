@@ -1,0 +1,96 @@
+{
+  "package": "hei-mujoco-sim",
+  "version": "0.1.0",
+  "validated_on": "2026-10-01",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "architecture": "AMD64",
+  "python": "3.10.21",
+  "mujoco": "3.5.0",
+  "numpy": "2.2.6",
+  "status": "passed",
+  "installation": {
+    "artifact": "hei_mujoco_sim-0.1.0-py3-none-any.whl",
+    "size_bytes": 24362113,
+    "sha256": "32b5ac5251a82deaba97545742a3ac48ff380b78d3d8b931d6aa0e333b0e4eac",
+    "new_virtual_environment": true,
+    "system_site_packages": false,
+    "teleop_extra_installed": true,
+    "checked_outside_source_directories": true,
+    "imports_from_installed_site_packages": true,
+    "pip_check": "passed",
+    "packaged_asset_hashes_verified": 36
+  },
+  "source_scene_comparison": {
+    "upstream_commit": "40674132257099656a26ee7fd11cb67f80f25658",
+    "local_configuration_snapshot_match": true,
+    "compiled_arrays_compared": 20,
+    "initial_qpos_match": true,
+    "relative_tolerance": 0.00005,
+    "absolute_tolerance": 0.0000001
+  },
+  "standalone_scene_xml": {
+    "status": "passed",
+    "compiled_arrays_compared": 22,
+    "solver_options_compared": 8,
+    "home_qpos_and_ctrl_match": true,
+    "all_meshes_and_textures_loaded": true,
+    "windows_unicode_paths_checked_via_ascii_temporary_copy": true
+  },
+  "physics_and_rendering": {
+    "scene_matches_exported_reference": true,
+    "cube_lands_on_table_z_m": 0.81989224457962,
+    "object_object_contact": true,
+    "robot_object_contact": true,
+    "low_friction_slide_m": 0.10455580050434915,
+    "high_friction_slide_m": 0.008062940141549235,
+    "three_224x224_rgb_cameras_rendered": true,
+    "camera_mounts_and_arm_lift_follow": true,
+    "overview_excluded_from_observations": true
+  },
+  "dynamic_grip": {
+    "status": "passed",
+    "normal_trials": 6,
+    "sides": ["right", "left"],
+    "positions_local_x_m": [0.16, 0.18, 0.2],
+    "gravity_enabled_during_measurement": true,
+    "hold_seconds_per_trial": 10,
+    "maximum_relative_drift_m": 0.0001935975653755757,
+    "minimum_lift_height_m": 0.10886651920309864,
+    "release_causes_drop": true,
+    "low_friction_control_slips": true,
+    "legacy_solver_control_slips": true,
+    "scope": "Cube initialized between jaws; dynamic hold/lift/release, not a full tabletop pick policy."
+  },
+  "collector": {
+    "complete_smoke_episode_frames": 5,
+    "cameras": ["front", "left_wrist", "right_wrist"],
+    "state_and_action_dimensions": 18,
+    "fps_simulation_time": 10,
+    "episode_integrity_validation": "passed",
+    "missing_camera_frame_rejected": true,
+    "gamepad_mapping_to_ik_checked_with_synthetic_input": true,
+    "startup_deadman_interlock": true,
+    "smoke_episode_marked_test_only": true
+  },
+  "tested_dependencies": {
+    "absl-py": "2.5.0",
+    "etils": "1.13.0",
+    "fsspec": "2026.9.0",
+    "glfw": "2.10.2",
+    "importlib_resources": "7.1.0",
+    "mujoco": "3.5.0",
+    "numpy": "2.2.6",
+    "opencv-python": "4.13.0.92",
+    "pynput": "1.8.1",
+    "PyOpenGL": "3.1.10",
+    "six": "1.17.0",
+    "typing_extensions": "4.16.0",
+    "zipp": "4.1.0"
+  },
+  "limitations": [
+    "This report covers local Windows validation; GitHub Actions reports Linux/Windows runner results separately.",
+    "Physical gamepad layouts on other devices and macOS have not been verified here.",
+    "Real robot calibration, training and deployment are outside this simulation package.",
+    "Matching configuration does not guarantee identical floating-point trajectories or rendered pixels across machines."
+  ]
+}

@@ -1,0 +1,9 @@
+name: hei-mujoco-sim
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -e .[teleop]
