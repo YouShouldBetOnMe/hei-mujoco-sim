@@ -127,7 +127,20 @@ hei-collect --monitor-gamepad 30
 
 升降初始在最高位，要先下降才能再次向上。实际手柄轴/按钮映射可能不同，用监视命令核对；自定义 JSON 可通过 `--gamepad-config 路径` 指定，默认配置在 [gamepad_config.json](hei_sim/gamepad_config.json)。键盘监听是全局的，切换软件前松开空格。
 
-这里提供场景和原始示范采集，不包含原电脑的训练数据、模型权重、论文 PDF、CUDA 训练环境或真机驱动。
+这里提供场景和示范采集；训练数据另通过下面的 Release 发布。模型权重、论文 PDF、CUDA 训练环境和真机驱动不在本仓库中。
+
+## 已发布数据集
+
+提供 **100 条随机布局的双臂方块抓取与堆叠示范**，共 51,940 帧、155,820 张正面/左右腕同步图像。包含原始记录和 LeRobot v3 格式，按示范保留 90/10 训练验证划分。示范来自程序专家，升降架物理固定在 -0.25 m。
+
+数据保存于 [Stack100 Release](https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/tag/dataset-stack100-v1)，下载器逐卷校验 SHA-256 并恢复完整目录：
+
+```bash
+python scripts/download_dataset.py                 # LeRobot 格式
+python scripts/download_dataset.py --format raw    # 原始三路相机和物理轨迹
+```
+
+规格、来源、读取示例及校验报告见 [数据集说明](docs/datasets/README.md)。数据独立下载，普通 `git clone` 只获取仿真代码、模型资源和数据说明。
 
 ## 来源与许可
 

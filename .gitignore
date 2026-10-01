@@ -4,7 +4,7 @@ __pycache__/
 .conda/
 .cache/
 conda-pkgs/
-datasets/
+/datasets/
 outputs/
 verification/
 build/

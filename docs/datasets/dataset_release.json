@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "dataset": "hei_stack100_workspace",
+  "version": "1",
+  "repository": "YouShouldBetOnMe/hei-mujoco-sim",
+  "release_tag": "dataset-stack100-v1",
+  "release_url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/tag/dataset-stack100-v1",
+  "episodes": 100,
+  "frames": 51940,
+  "cameras": [
+    "front",
+    "left_wrist",
+    "right_wrist"
+  ],
+  "archive_type": "independent_zip_shards",
+  "variants": {
+    "lerobot": {
+      "directory": "hei_stack100_workspace",
+      "file_count": 58,
+      "uncompressed_bytes": 4531671772,
+      "archives": [
+        {
+          "name": "hei-stack100-v1-lerobot-001.zip",
+          "size_bytes": 456039436,
+          "sha256": "3f14f5dc8f4f52c60ec0d39e7b0738cc8f2978431db30b1760a5c57011a6a6a6",
+          "file_count": 5,
+          "uncompressed_bytes": 456038494,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-001.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-002.zip",
+          "size_bytes": 533782592,
+          "sha256": "530dde7a556be1ed59d6773c8c4b092bc59d7d1a3086eb861388060102c0fb70",
+          "file_count": 6,
+          "uncompressed_bytes": 533781466,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-002.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-003.zip",
+          "size_bytes": 456311788,
+          "sha256": "8d1aaefaa26d1c5d3c1790ad1483a824d09603c48bc468e4ae30ef7f8a54d60a",
+          "file_count": 5,
+          "uncompressed_bytes": 456310846,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-003.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-004.zip",
+          "size_bytes": 454798914,
+          "sha256": "661bcdae47c2d7ee7223ee3500839595c4150fef62e997799df7cd42acba049f",
+          "file_count": 5,
+          "uncompressed_bytes": 454797972,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-004.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-005.zip",
+          "size_bytes": 453119549,
+          "sha256": "08c8a2a6b219c6107e914238837fc4e2b5f25b4e9bed47d57eb4e3cf4c8f68f7",
+          "file_count": 5,
+          "uncompressed_bytes": 453118607,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-005.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-006.zip",
+          "size_bytes": 449124144,
+          "sha256": "6eeb76136eba144bdbb63860eea99d4546e1df2caeb4bae31465d5ed4d273ca5",
+          "file_count": 5,
+          "uncompressed_bytes": 449123202,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-006.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-007.zip",
+          "size_bytes": 451849058,
+          "sha256": "a4e4c53a8f5dd03c7c8d21bd4336534fe97957d72958efc009a5610f58f6b43d",
+          "file_count": 5,
+          "uncompressed_bytes": 451848116,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-007.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-008.zip",
+          "size_bytes": 458149015,
+          "sha256": "667e615320df52384f464fad9ccd4310fe9f553fb005a1f3496fbb561f4efcfb",
+          "file_count": 5,
+          "uncompressed_bytes": 458148073,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-008.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-009.zip",
+          "size_bytes": 503395421,
+          "sha256": "4c3e3320f08bce7ee43ecda6ccf366cb4c0ab02e118b3a8f64e3a39dfc4db34b",
+          "file_count": 6,
+          "uncompressed_bytes": 503394295,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-009.zip"
+        },
+        {
+          "name": "hei-stack100-v1-lerobot-010.zip",
+          "size_bytes": 315112603,
+          "sha256": "39eb259db9abe403ceade75d4b54dd6eb65b34b456d7abaadb8de4499056276b",
+          "file_count": 11,
+          "uncompressed_bytes": 315110701,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-lerobot-010.zip"
+        }
+      ]
+    },
+    "raw": {
+      "directory": "hei_stack100_workspace_raw",
+      "file_count": 157023,
+      "uncompressed_bytes": 6109426637,
+      "archives": [
+        {
+          "name": "hei-stack100-v1-raw-001.zip",
+          "size_bytes": 539931418,
+          "sha256": "f1b2794c54a322c9cd14d8ffe7b6d94205602356e22bd24c3c0f804881e9e61d",
+          "file_count": 14004,
+          "uncompressed_bytes": 536861184,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-001.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-002.zip",
+          "size_bytes": 539920922,
+          "sha256": "23fc670a44b6dea97bcd79f2eef4180373b684155f6f702a3dd3a5811b6eeb7d",
+          "file_count": 13954,
+          "uncompressed_bytes": 536860958,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-002.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-003.zip",
+          "size_bytes": 539914573,
+          "sha256": "6beb80ab6afb5e97877b62ecd6e1f2769d5d5e842cd83729c80924fd439db7ff",
+          "file_count": 14022,
+          "uncompressed_bytes": 536839199,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-003.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-004.zip",
+          "size_bytes": 539934095,
+          "sha256": "0a4e918ca57d23bf44fd89b2f616fbe2693e5495f840da772873ba34c3d5bd47",
+          "file_count": 14034,
+          "uncompressed_bytes": 536857305,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-004.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-005.zip",
+          "size_bytes": 539933936,
+          "sha256": "34dce901609233ba5b40c71aae024c2b61311e5337497bd7c2024df8dc9333bc",
+          "file_count": 13971,
+          "uncompressed_bytes": 536870082,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-005.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-006.zip",
+          "size_bytes": 539910373,
+          "sha256": "de1e10daa05598127279656e83d996f825d618d85cda9fbc8b106bc35e8be8a5",
+          "file_count": 14022,
+          "uncompressed_bytes": 536835683,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-006.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-007.zip",
+          "size_bytes": 539946926,
+          "sha256": "e0344e53b7fca1c2f77a6dadc5c3fc8024b4624a55ba5eabc5ed125c896973a7",
+          "file_count": 14030,
+          "uncompressed_bytes": 536870192,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-007.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-008.zip",
+          "size_bytes": 539907221,
+          "sha256": "ce02d4600ec7538b60188bfb792a1426f34458053b6e985e2eebc67e5edbea6f",
+          "file_count": 14000,
+          "uncompressed_bytes": 536836717,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-008.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-009.zip",
+          "size_bytes": 539931708,
+          "sha256": "f5639273d342b4605f7622844556a438fc0472b20da524c8b76112f36383d091",
+          "file_count": 14135,
+          "uncompressed_bytes": 536832994,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-009.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-010.zip",
+          "size_bytes": 539948082,
+          "sha256": "5f87cef2f362bbb0cd1319105c7088111a4cadd80bdd94ae47b790be037b231e",
+          "file_count": 14100,
+          "uncompressed_bytes": 536856428,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-010.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-011.zip",
+          "size_bytes": 539716976,
+          "sha256": "275089fea893bc55a02b135da673486f04ea88b98ac9c2cfde4cd3ca9876151c",
+          "file_count": 13996,
+          "uncompressed_bytes": 536647662,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-011.zip"
+        },
+        {
+          "name": "hei-stack100-v1-raw-012.zip",
+          "size_bytes": 204848297,
+          "sha256": "b21cd3834e3141d1ed260572e9bac024b9ca7a86c39680f806ef38fff67b72e9",
+          "file_count": 2755,
+          "uncompressed_bytes": 204258233,
+          "url": "https://github.com/YouShouldBetOnMe/hei-mujoco-sim/releases/download/dataset-stack100-v1/hei-stack100-v1-raw-012.zip"
+        }
+      ]
+    }
+  }
+}

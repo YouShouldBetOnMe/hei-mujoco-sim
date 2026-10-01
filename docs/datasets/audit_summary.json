@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "episodes": 100,
+  "frames": 51940,
+  "images": 155820,
+  "cameras": [
+    "front",
+    "left_wrist",
+    "right_wrist"
+  ],
+  "image_size": [
+    224,
+    224,
+    3
+  ],
+  "fps": 10,
+  "every_raw_image_decoded": true,
+  "state_action_and_timestamp_validation": true,
+  "unique_seeds": 100,
+  "unique_initial_states": 100,
+  "gravity_and_contact_success_evidence": true,
+  "fixed_lift_m": -0.25,
+  "train_episodes": 90,
+  "validation_episodes": 10,
+  "source": "privileged simulator-state procedural expert; not human teleoperation",
+  "original_lerobot_validation": "passed",
+  "original_diffusion_batch_validation": "passed"
+}

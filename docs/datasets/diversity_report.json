@@ -1,0 +1,99 @@
+{
+  "episodes": 100,
+  "distinct_recorded_state_action_files": 100,
+  "arm_order_counts": {
+    "right": 50,
+    "left": 50
+  },
+  "stack_order_counts": {
+    "red/green/blue": 17,
+    "red/blue/green": 17,
+    "green/red/blue": 17,
+    "green/blue/red": 17,
+    "blue/red/green": 16,
+    "blue/green/red": 16
+  },
+  "initial_xyz_range_m": {
+    "red": {
+      "min": [
+        0.502,
+        -0.5152753545243741,
+        0.8198922445797832
+      ],
+      "max": [
+        0.8605140138271481,
+        0.5207398016824507,
+        0.8198922445797832
+      ],
+      "span": [
+        0.3585140138271481,
+        1.0360151562068247,
+        0.0
+      ]
+    },
+    "green": {
+      "min": [
+        0.502,
+        -0.5193643384457047,
+        0.8198922445797832
+      ],
+      "max": [
+        0.8508973569123264,
+        0.5072769118525208,
+        0.8198922445797832
+      ],
+      "span": [
+        0.3488973569123264,
+        1.0266412502982254,
+        0.0
+      ]
+    },
+    "blue": {
+      "min": [
+        0.502,
+        -0.5040244062307488,
+        0.8198922445797832
+      ],
+      "max": [
+        0.8598943209399437,
+        0.5161027539708622,
+        0.8198922445797832
+      ],
+      "span": [
+        0.35789432093994367,
+        1.020127160201611,
+        0.0
+      ]
+    }
+  },
+  "method": "24 arclength samples per active arm per phase; mean Euclidean TCP distance; no timing credit",
+  "interpretation": "Descriptive coverage metrics only; no estimate of independent sample count or learned-policy success.",
+  "per_arm_order": {
+    "right": {
+      "count": 50,
+      "world": {
+        "nearest_min_m": 0.043699995416854966,
+        "nearest_median_m": 0.061742279811459,
+        "pairwise_median_m": 0.14092537719212894
+      },
+      "phase_start_relative_shape": {
+        "nearest_min_m": 0.015741143802696738,
+        "nearest_median_m": 0.019196419236659254,
+        "pairwise_median_m": 0.043400058451082225
+      }
+    },
+    "left": {
+      "count": 50,
+      "world": {
+        "nearest_min_m": 0.04623250835002631,
+        "nearest_median_m": 0.060461263005635646,
+        "pairwise_median_m": 0.14115229846826213
+      },
+      "phase_start_relative_shape": {
+        "nearest_min_m": 0.0150601247031043,
+        "nearest_median_m": 0.019250608039689233,
+        "pairwise_median_m": 0.04267936998765926
+      }
+    }
+  }
+}

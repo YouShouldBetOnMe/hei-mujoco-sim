@@ -1,0 +1,1934 @@
+{
+  "task": "Use both arms to stack the three cubes into one stable tower, in any color order.",
+  "task_version": 4,
+  "requested_successes": 100,
+  "demonstrator": "privileged-state procedural expert with multiple spatial routes; not human teleoperation",
+  "status": "raw_validated",
+  "complete": true,
+  "approved_for_training": true,
+  "successful_episodes": [
+    {
+      "path": "20260927T171423_486788e5",
+      "slot": 0,
+      "seed": 1928003,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 518,
+      "nearest_prior_world_m": null,
+      "nearest_prior_shape_m": null,
+      "success": true
+    },
+    {
+      "path": "20260927T171432_e85f5b1a",
+      "slot": 1,
+      "seed": 1929006,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 530,
+      "nearest_prior_world_m": null,
+      "nearest_prior_shape_m": null,
+      "success": true
+    },
+    {
+      "path": "20260927T171441_493614a4",
+      "slot": 2,
+      "seed": 1930002,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 550,
+      "nearest_prior_world_m": 0.21169363626550716,
+      "nearest_prior_shape_m": 0.06441625610216216,
+      "success": true
+    },
+    {
+      "path": "20260927T171452_c92a1045",
+      "slot": 3,
+      "seed": 1931001,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 499,
+      "nearest_prior_world_m": 0.2202260451702367,
+      "nearest_prior_shape_m": 0.057188712997016396,
+      "success": true
+    },
+    {
+      "path": "20260927T171501_6b4a3746",
+      "slot": 4,
+      "seed": 1932008,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 564,
+      "nearest_prior_world_m": 0.14260361824713205,
+      "nearest_prior_shape_m": 0.04658250791448643,
+      "success": true
+    },
+    {
+      "path": "20260927T171510_d2ba8513",
+      "slot": 5,
+      "seed": 1933003,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 519,
+      "nearest_prior_world_m": 0.05655663584904225,
+      "nearest_prior_shape_m": 0.018520324019446997,
+      "success": true
+    },
+    {
+      "path": "20260927T171521_b83554dc",
+      "slot": 6,
+      "seed": 1934002,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 483,
+      "nearest_prior_world_m": 0.10966283754809807,
+      "nearest_prior_shape_m": 0.03899661295774274,
+      "success": true
+    },
+    {
+      "path": "20260927T171530_e1d0181c",
+      "slot": 7,
+      "seed": 1935007,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 499,
+      "nearest_prior_world_m": 0.06253235976029321,
+      "nearest_prior_shape_m": 0.01929930751675746,
+      "success": true
+    },
+    {
+      "path": "20260927T171538_115f50ac",
+      "slot": 8,
+      "seed": 1936004,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 544,
+      "nearest_prior_world_m": 0.13316622912428316,
+      "nearest_prior_shape_m": 0.03194142883033823,
+      "success": true
+    },
+    {
+      "path": "20260927T171549_92f6a3f9",
+      "slot": 9,
+      "seed": 1937005,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 502,
+      "nearest_prior_world_m": 0.08442585672633797,
+      "nearest_prior_shape_m": 0.029965192728585777,
+      "success": true
+    },
+    {
+      "path": "20260927T171557_75cf0b3d",
+      "slot": 10,
+      "seed": 1938005,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 491,
+      "nearest_prior_world_m": 0.14454373123604977,
+      "nearest_prior_shape_m": 0.042465901504563565,
+      "success": true
+    },
+    {
+      "path": "20260927T171606_35a38d24",
+      "slot": 11,
+      "seed": 1939002,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 457,
+      "nearest_prior_world_m": 0.10612050701679343,
+      "nearest_prior_shape_m": 0.03514159785406425,
+      "success": true
+    },
+    {
+      "path": "20260927T171616_beb29b78",
+      "slot": 12,
+      "seed": 1940018,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 522,
+      "nearest_prior_world_m": 0.08182166131675385,
+      "nearest_prior_shape_m": 0.02713860033232048,
+      "success": true
+    },
+    {
+      "path": "20260927T171625_66e4e7b3",
+      "slot": 13,
+      "seed": 1941000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 546,
+      "nearest_prior_world_m": 0.08797355859461764,
+      "nearest_prior_shape_m": 0.02967193241502213,
+      "success": true
+    },
+    {
+      "path": "20260927T171634_67c97db3",
+      "slot": 14,
+      "seed": 1942000,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 485,
+      "nearest_prior_world_m": 0.06321801727160122,
+      "nearest_prior_shape_m": 0.023455256572957217,
+      "success": true
+    },
+    {
+      "path": "20260927T171642_92f26342",
+      "slot": 15,
+      "seed": 1943002,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 513,
+      "nearest_prior_world_m": 0.0640435417071738,
+      "nearest_prior_shape_m": 0.02232526976576819,
+      "success": true
+    },
+    {
+      "path": "20260927T171653_74c78223",
+      "slot": 16,
+      "seed": 1944004,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 535,
+      "nearest_prior_world_m": 0.08249175051986089,
+      "nearest_prior_shape_m": 0.02726383471837618,
+      "success": true
+    },
+    {
+      "path": "20260927T171703_5817b1df",
+      "slot": 17,
+      "seed": 1945013,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 488,
+      "nearest_prior_world_m": 0.07961268788504659,
+      "nearest_prior_shape_m": 0.029974620187567313,
+      "success": true
+    },
+    {
+      "path": "20260927T171711_d8d6a7d1",
+      "slot": 18,
+      "seed": 1946015,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 511,
+      "nearest_prior_world_m": 0.108855033401509,
+      "nearest_prior_shape_m": 0.034588179799188455,
+      "success": true
+    },
+    {
+      "path": "20260927T171719_58b7c183",
+      "slot": 19,
+      "seed": 1947006,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 564,
+      "nearest_prior_world_m": 0.11281088233312893,
+      "nearest_prior_shape_m": 0.038556106946420726,
+      "success": true
+    },
+    {
+      "path": "20260927T171729_59899f8e",
+      "slot": 20,
+      "seed": 1948004,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 483,
+      "nearest_prior_world_m": 0.08111078354827116,
+      "nearest_prior_shape_m": 0.03000200683983184,
+      "success": true
+    },
+    {
+      "path": "20260927T171739_69107b0e",
+      "slot": 21,
+      "seed": 1949000,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 527,
+      "nearest_prior_world_m": 0.10664897159034831,
+      "nearest_prior_shape_m": 0.027825682421092346,
+      "success": true
+    },
+    {
+      "path": "20260927T171750_5ad1c288",
+      "slot": 22,
+      "seed": 1950001,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 540,
+      "nearest_prior_world_m": 0.07352049041231641,
+      "nearest_prior_shape_m": 0.02120985944285564,
+      "success": true
+    },
+    {
+      "path": "20260927T171801_63d935f0",
+      "slot": 23,
+      "seed": 1951000,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 544,
+      "nearest_prior_world_m": 0.06373855123762745,
+      "nearest_prior_shape_m": 0.025025746967319334,
+      "success": true
+    },
+    {
+      "path": "20260927T171812_96c57c91",
+      "slot": 24,
+      "seed": 1952006,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 556,
+      "nearest_prior_world_m": 0.08825718310023718,
+      "nearest_prior_shape_m": 0.02604333335392182,
+      "success": true
+    },
+    {
+      "path": "20260927T171822_4c3c2e02",
+      "slot": 25,
+      "seed": 1953009,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 499,
+      "nearest_prior_world_m": 0.060717953794165384,
+      "nearest_prior_shape_m": 0.019505131370003755,
+      "success": true
+    },
+    {
+      "path": "20260927T171833_7ac0f95c",
+      "slot": 26,
+      "seed": 1954008,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 502,
+      "nearest_prior_world_m": 0.0725134922961977,
+      "nearest_prior_shape_m": 0.019316899102105396,
+      "success": true
+    },
+    {
+      "path": "20260927T171843_f903015f",
+      "slot": 27,
+      "seed": 1955003,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 474,
+      "nearest_prior_world_m": 0.08956215309065879,
+      "nearest_prior_shape_m": 0.026289679110508307,
+      "success": true
+    },
+    {
+      "path": "20260927T171852_a9d2e07d",
+      "slot": 28,
+      "seed": 1956005,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 530,
+      "nearest_prior_world_m": 0.08863484099709111,
+      "nearest_prior_shape_m": 0.022237496173251565,
+      "success": true
+    },
+    {
+      "path": "20260927T171902_b51ccdd1",
+      "slot": 29,
+      "seed": 1957000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 506,
+      "nearest_prior_world_m": 0.07409763318118273,
+      "nearest_prior_shape_m": 0.0230796872289892,
+      "success": true
+    },
+    {
+      "path": "20260927T171912_6095b26c",
+      "slot": 30,
+      "seed": 1958000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 535,
+      "nearest_prior_world_m": 0.04623250835002631,
+      "nearest_prior_shape_m": 0.017920786701236043,
+      "success": true
+    },
+    {
+      "path": "20260927T171922_291e0289",
+      "slot": 31,
+      "seed": 1959004,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 520,
+      "nearest_prior_world_m": 0.10855420873243883,
+      "nearest_prior_shape_m": 0.03322643065492846,
+      "success": true
+    },
+    {
+      "path": "20260927T171932_c3457cac",
+      "slot": 32,
+      "seed": 1960003,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 526,
+      "nearest_prior_world_m": 0.0721563721290386,
+      "nearest_prior_shape_m": 0.023657010448834847,
+      "success": true
+    },
+    {
+      "path": "20260927T171945_3c8b9457",
+      "slot": 33,
+      "seed": 1961003,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 505,
+      "nearest_prior_world_m": 0.07960440849303868,
+      "nearest_prior_shape_m": 0.02994540496510147,
+      "success": true
+    },
+    {
+      "path": "20260927T171956_9c79e309",
+      "slot": 34,
+      "seed": 1962010,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 565,
+      "nearest_prior_world_m": 0.0916683291504416,
+      "nearest_prior_shape_m": 0.0264475239960572,
+      "success": true
+    },
+    {
+      "path": "20260927T172009_6020ffb4",
+      "slot": 35,
+      "seed": 1963009,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 556,
+      "nearest_prior_world_m": 0.05314187892077562,
+      "nearest_prior_shape_m": 0.019544136071816275,
+      "success": true
+    },
+    {
+      "path": "20260927T172022_d2c675cb",
+      "slot": 36,
+      "seed": 1964019,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 515,
+      "nearest_prior_world_m": 0.06132996677603439,
+      "nearest_prior_shape_m": 0.02000844454336167,
+      "success": true
+    },
+    {
+      "path": "20260927T172033_023ac4f7",
+      "slot": 37,
+      "seed": 1965004,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 503,
+      "nearest_prior_world_m": 0.0595159573143188,
+      "nearest_prior_shape_m": 0.02230424332644247,
+      "success": true
+    },
+    {
+      "path": "20260927T172045_8374182b",
+      "slot": 38,
+      "seed": 1966001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 482,
+      "nearest_prior_world_m": 0.0793697879474856,
+      "nearest_prior_shape_m": 0.023183978180253584,
+      "success": true
+    },
+    {
+      "path": "20260927T172056_cc6ad764",
+      "slot": 39,
+      "seed": 1967010,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 514,
+      "nearest_prior_world_m": 0.06538561046193461,
+      "nearest_prior_shape_m": 0.021748364732431826,
+      "success": true
+    },
+    {
+      "path": "20260927T172110_5904c525",
+      "slot": 40,
+      "seed": 1968001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 536,
+      "nearest_prior_world_m": 0.07004807632787419,
+      "nearest_prior_shape_m": 0.023577215851051426,
+      "success": true
+    },
+    {
+      "path": "20260927T172122_169cb2eb",
+      "slot": 41,
+      "seed": 1969011,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 530,
+      "nearest_prior_world_m": 0.05884964958037719,
+      "nearest_prior_shape_m": 0.017727242282045946,
+      "success": true
+    },
+    {
+      "path": "20260927T172132_7cedec08",
+      "slot": 42,
+      "seed": 1970000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 511,
+      "nearest_prior_world_m": 0.052822904083832285,
+      "nearest_prior_shape_m": 0.02193531206675262,
+      "success": true
+    },
+    {
+      "path": "20260927T172142_15f02303",
+      "slot": 43,
+      "seed": 1971004,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 561,
+      "nearest_prior_world_m": 0.09170980322303933,
+      "nearest_prior_shape_m": 0.02676520662341186,
+      "success": true
+    },
+    {
+      "path": "20260927T172153_cc5c8931",
+      "slot": 44,
+      "seed": 1972004,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 481,
+      "nearest_prior_world_m": 0.0693855402389694,
+      "nearest_prior_shape_m": 0.02492144378796828,
+      "success": true
+    },
+    {
+      "path": "20260927T172202_2d06404c",
+      "slot": 45,
+      "seed": 1973001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 517,
+      "nearest_prior_world_m": 0.05120666896366941,
+      "nearest_prior_shape_m": 0.016250164369645926,
+      "success": true
+    },
+    {
+      "path": "20260927T172211_fe505610",
+      "slot": 46,
+      "seed": 1974002,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 537,
+      "nearest_prior_world_m": 0.04959905205230087,
+      "nearest_prior_shape_m": 0.015194352184315968,
+      "success": true
+    },
+    {
+      "path": "20260927T172221_6a2df8ac",
+      "slot": 47,
+      "seed": 1975000,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 567,
+      "nearest_prior_world_m": 0.061742279811459,
+      "nearest_prior_shape_m": 0.018278761654856795,
+      "success": true
+    },
+    {
+      "path": "20260927T172232_dcfc65b5",
+      "slot": 48,
+      "seed": 1976004,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 484,
+      "nearest_prior_world_m": 0.058495689607764155,
+      "nearest_prior_shape_m": 0.016871995584743657,
+      "success": true
+    },
+    {
+      "path": "20260927T172241_8d8ac3f1",
+      "slot": 49,
+      "seed": 1977002,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 521,
+      "nearest_prior_world_m": 0.08801825312068816,
+      "nearest_prior_shape_m": 0.02731487212569282,
+      "success": true
+    },
+    {
+      "path": "20260927T172251_719000d3",
+      "slot": 50,
+      "seed": 1978002,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 489,
+      "nearest_prior_world_m": 0.06076259982591319,
+      "nearest_prior_shape_m": 0.02099124475068191,
+      "success": true
+    },
+    {
+      "path": "20260927T172303_033dcb2f",
+      "slot": 51,
+      "seed": 1979007,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 500,
+      "nearest_prior_world_m": 0.05503770477688511,
+      "nearest_prior_shape_m": 0.017266626302065224,
+      "success": true
+    },
+    {
+      "path": "20260927T172312_f4f1b06e",
+      "slot": 52,
+      "seed": 1980028,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 553,
+      "nearest_prior_world_m": 0.0722982206974453,
+      "nearest_prior_shape_m": 0.01958108025481353,
+      "success": true
+    },
+    {
+      "path": "20260927T172322_4e1b8184",
+      "slot": 53,
+      "seed": 1981002,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 507,
+      "nearest_prior_world_m": 0.08061754400345333,
+      "nearest_prior_shape_m": 0.02325160820379055,
+      "success": true
+    },
+    {
+      "path": "20260927T172331_161d65a4",
+      "slot": 54,
+      "seed": 1982001,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 524,
+      "nearest_prior_world_m": 0.06721029418385642,
+      "nearest_prior_shape_m": 0.016142176409756664,
+      "success": true
+    },
+    {
+      "path": "20260927T172340_6c37029e",
+      "slot": 55,
+      "seed": 1983000,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 502,
+      "nearest_prior_world_m": 0.05539319866308567,
+      "nearest_prior_shape_m": 0.016745090868289736,
+      "success": true
+    },
+    {
+      "path": "20260927T172349_ba5f1d68",
+      "slot": 56,
+      "seed": 1984001,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 529,
+      "nearest_prior_world_m": 0.09486620119564641,
+      "nearest_prior_shape_m": 0.022546681407982813,
+      "success": true
+    },
+    {
+      "path": "20260927T172359_af2491e5",
+      "slot": 57,
+      "seed": 1985006,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 508,
+      "nearest_prior_world_m": 0.08406576156688739,
+      "nearest_prior_shape_m": 0.027791943330313765,
+      "success": true
+    },
+    {
+      "path": "20260927T172409_acecc511",
+      "slot": 58,
+      "seed": 1986018,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 517,
+      "nearest_prior_world_m": 0.06127241431630217,
+      "nearest_prior_shape_m": 0.018330128641364928,
+      "success": true
+    },
+    {
+      "path": "20260927T172418_70f488a8",
+      "slot": 59,
+      "seed": 1987001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 500,
+      "nearest_prior_world_m": 0.0606987225821819,
+      "nearest_prior_shape_m": 0.019666378988098327,
+      "success": true
+    },
+    {
+      "path": "20260927T172428_7c6c7c80",
+      "slot": 60,
+      "seed": 1988030,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 526,
+      "nearest_prior_world_m": 0.06486824896621483,
+      "nearest_prior_shape_m": 0.0189247606020184,
+      "success": true
+    },
+    {
+      "path": "20260927T172438_cca5440b",
+      "slot": 61,
+      "seed": 1989002,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 508,
+      "nearest_prior_world_m": 0.09012987599864652,
+      "nearest_prior_shape_m": 0.02715793753848691,
+      "success": true
+    },
+    {
+      "path": "20260927T172448_ff1241fe",
+      "slot": 62,
+      "seed": 1990001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 543,
+      "nearest_prior_world_m": 0.0761628704715555,
+      "nearest_prior_shape_m": 0.023854710478870098,
+      "success": true
+    },
+    {
+      "path": "20260927T172501_939ca1c4",
+      "slot": 63,
+      "seed": 1991001,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 526,
+      "nearest_prior_world_m": 0.07605453800498925,
+      "nearest_prior_shape_m": 0.020403763998198644,
+      "success": true
+    },
+    {
+      "path": "20260927T172511_27c50e76",
+      "slot": 64,
+      "seed": 1992008,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 548,
+      "nearest_prior_world_m": 0.07177350662053122,
+      "nearest_prior_shape_m": 0.019987642866396548,
+      "success": true
+    },
+    {
+      "path": "20260927T172522_c5a2ebff",
+      "slot": 65,
+      "seed": 1993026,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 526,
+      "nearest_prior_world_m": 0.07933006880505598,
+      "nearest_prior_shape_m": 0.025117269866620984,
+      "success": true
+    },
+    {
+      "path": "20260927T172531_8d9d17ba",
+      "slot": 66,
+      "seed": 1994003,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 502,
+      "nearest_prior_world_m": 0.0793300441569129,
+      "nearest_prior_shape_m": 0.025416895762724833,
+      "success": true
+    },
+    {
+      "path": "20260927T172540_e697f9a1",
+      "slot": 67,
+      "seed": 1995011,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 474,
+      "nearest_prior_world_m": 0.064075592810119,
+      "nearest_prior_shape_m": 0.01633905823849156,
+      "success": true
+    },
+    {
+      "path": "20260927T172549_e3fbd8da",
+      "slot": 68,
+      "seed": 1996000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 573,
+      "nearest_prior_world_m": 0.0813431480690261,
+      "nearest_prior_shape_m": 0.020392092895351873,
+      "success": true
+    },
+    {
+      "path": "20260927T172559_a7f0fc69",
+      "slot": 69,
+      "seed": 1997002,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 522,
+      "nearest_prior_world_m": 0.0917286303554818,
+      "nearest_prior_shape_m": 0.028972143183013287,
+      "success": true
+    },
+    {
+      "path": "20260927T172608_d8b92e0a",
+      "slot": 70,
+      "seed": 1998007,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 468,
+      "nearest_prior_world_m": 0.0589544740082994,
+      "nearest_prior_shape_m": 0.024528907430712465,
+      "success": true
+    },
+    {
+      "path": "20260927T172616_267859bd",
+      "slot": 71,
+      "seed": 1999001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 483,
+      "nearest_prior_world_m": 0.043699995416854966,
+      "nearest_prior_shape_m": 0.015741143802696738,
+      "success": true
+    },
+    {
+      "path": "20260927T172625_60b8a09a",
+      "slot": 72,
+      "seed": 2000000,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 532,
+      "nearest_prior_world_m": 0.05258169371534125,
+      "nearest_prior_shape_m": 0.016816785023799057,
+      "success": true
+    },
+    {
+      "path": "20260927T172635_ebaa57aa",
+      "slot": 73,
+      "seed": 2001006,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 536,
+      "nearest_prior_world_m": 0.060513133617910476,
+      "nearest_prior_shape_m": 0.01687229008261452,
+      "success": true
+    },
+    {
+      "path": "20260927T172645_35c70446",
+      "slot": 74,
+      "seed": 2002028,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 532,
+      "nearest_prior_world_m": 0.05185940517690054,
+      "nearest_prior_shape_m": 0.016737039879431027,
+      "success": true
+    },
+    {
+      "path": "20260927T172655_b2b73fd5",
+      "slot": 75,
+      "seed": 2003009,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 513,
+      "nearest_prior_world_m": 0.050704612291472655,
+      "nearest_prior_shape_m": 0.015592060372479311,
+      "success": true
+    },
+    {
+      "path": "20260927T172706_f46e718b",
+      "slot": 76,
+      "seed": 2004008,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 490,
+      "nearest_prior_world_m": 0.06432400772818958,
+      "nearest_prior_shape_m": 0.023733662747461356,
+      "success": true
+    },
+    {
+      "path": "20260927T172715_728469ce",
+      "slot": 77,
+      "seed": 2005002,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 518,
+      "nearest_prior_world_m": 0.047632117349555414,
+      "nearest_prior_shape_m": 0.017579653088866252,
+      "success": true
+    },
+    {
+      "path": "20260927T172728_499b0c95",
+      "slot": 78,
+      "seed": 2006000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 532,
+      "nearest_prior_world_m": 0.06738765667355286,
+      "nearest_prior_shape_m": 0.020348939867167,
+      "success": true
+    },
+    {
+      "path": "20260927T172739_b7aa099e",
+      "slot": 79,
+      "seed": 2007001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 555,
+      "nearest_prior_world_m": 0.07246833421255973,
+      "nearest_prior_shape_m": 0.019093530956561047,
+      "success": true
+    },
+    {
+      "path": "20260927T172752_b2f7b21e",
+      "slot": 80,
+      "seed": 2008003,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 559,
+      "nearest_prior_world_m": 0.08240626804202082,
+      "nearest_prior_shape_m": 0.02386687334848665,
+      "success": true
+    },
+    {
+      "path": "20260927T172804_940f1bdd",
+      "slot": 81,
+      "seed": 2009039,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 494,
+      "nearest_prior_world_m": 0.0625622431973811,
+      "nearest_prior_shape_m": 0.02068366389412934,
+      "success": true
+    },
+    {
+      "path": "20260927T172814_f0b98370",
+      "slot": 82,
+      "seed": 2010008,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 536,
+      "nearest_prior_world_m": 0.04910501612249416,
+      "nearest_prior_shape_m": 0.01724943788520052,
+      "success": true
+    },
+    {
+      "path": "20260927T172825_feb8ac20",
+      "slot": 83,
+      "seed": 2011014,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 493,
+      "nearest_prior_world_m": 0.06451431930681605,
+      "nearest_prior_shape_m": 0.020684524915961632,
+      "success": true
+    },
+    {
+      "path": "20260927T172833_2297d99a",
+      "slot": 84,
+      "seed": 2012020,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 501,
+      "nearest_prior_world_m": 0.07007458626306967,
+      "nearest_prior_shape_m": 0.019722677457218545,
+      "success": true
+    },
+    {
+      "path": "20260927T172843_95cb7fd9",
+      "slot": 85,
+      "seed": 2013001,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 716,
+      "nearest_prior_world_m": 0.06335258927752117,
+      "nearest_prior_shape_m": 0.022373832687178564,
+      "success": true
+    },
+    {
+      "path": "20260927T172856_983dbc6a",
+      "slot": 86,
+      "seed": 2014001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 481,
+      "nearest_prior_world_m": 0.07636508496523127,
+      "nearest_prior_shape_m": 0.02322218602034146,
+      "success": true
+    },
+    {
+      "path": "20260927T172904_3add7acb",
+      "slot": 87,
+      "seed": 2015000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 482,
+      "nearest_prior_world_m": 0.04691793365487768,
+      "nearest_prior_shape_m": 0.0150601247031043,
+      "success": true
+    },
+    {
+      "path": "20260927T172912_ecb3c6c2",
+      "slot": 88,
+      "seed": 2016010,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 499,
+      "nearest_prior_world_m": 0.05497854379038566,
+      "nearest_prior_shape_m": 0.016512813866899487,
+      "success": true
+    },
+    {
+      "path": "20260927T172921_3be4a3b7",
+      "slot": 89,
+      "seed": 2017000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 518,
+      "nearest_prior_world_m": 0.05061457105775,
+      "nearest_prior_shape_m": 0.01938642031485051,
+      "success": true
+    },
+    {
+      "path": "20260927T172929_e93a709a",
+      "slot": 90,
+      "seed": 2018001,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 530,
+      "nearest_prior_world_m": 0.04638497208569245,
+      "nearest_prior_shape_m": 0.01713251057519813,
+      "success": true
+    },
+    {
+      "path": "20260927T172938_242bce78",
+      "slot": 91,
+      "seed": 2019001,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "direct",
+        "far_arc"
+      ],
+      "frames": 499,
+      "nearest_prior_world_m": 0.05810046326263816,
+      "nearest_prior_shape_m": 0.020235882148517247,
+      "success": true
+    },
+    {
+      "path": "20260927T172947_27ab8597",
+      "slot": 92,
+      "seed": 2020019,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 533,
+      "nearest_prior_world_m": 0.08942668654429954,
+      "nearest_prior_shape_m": 0.02548404415191201,
+      "success": true
+    },
+    {
+      "path": "20260927T172958_ae7ca34d",
+      "slot": 93,
+      "seed": 2021006,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "near_arc",
+        "high_crossing"
+      ],
+      "frames": 525,
+      "nearest_prior_world_m": 0.09025289950069493,
+      "nearest_prior_shape_m": 0.02868822266882744,
+      "success": true
+    },
+    {
+      "path": "20260927T173008_4ce840fc",
+      "slot": 94,
+      "seed": 2022000,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 475,
+      "nearest_prior_world_m": 0.0610200144067421,
+      "nearest_prior_shape_m": 0.01881204439039816,
+      "success": true
+    },
+    {
+      "path": "20260927T173016_fc89ab42",
+      "slot": 95,
+      "seed": 2023002,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "routes": [
+        "far_arc",
+        "staged_crossing"
+      ],
+      "frames": 522,
+      "nearest_prior_world_m": 0.05645417752301679,
+      "nearest_prior_shape_m": 0.020820172654597954,
+      "success": true
+    },
+    {
+      "path": "20260927T173025_3ba4106b",
+      "slot": 96,
+      "seed": 2024000,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 508,
+      "nearest_prior_world_m": 0.06932167295669277,
+      "nearest_prior_shape_m": 0.017763992628231546,
+      "success": true
+    },
+    {
+      "path": "20260927T173034_8bc08161",
+      "slot": 97,
+      "seed": 2025020,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "routes": [
+        "high_crossing",
+        "direct"
+      ],
+      "frames": 528,
+      "nearest_prior_world_m": 0.07178117729559268,
+      "nearest_prior_shape_m": 0.022497076477853723,
+      "success": true
+    },
+    {
+      "path": "20260927T173043_5981460b",
+      "slot": 98,
+      "seed": 2026061,
+      "first_arm": "right",
+      "stack_order_bottom_to_top": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 515,
+      "nearest_prior_world_m": 0.0567043218213342,
+      "nearest_prior_shape_m": 0.017922422143774337,
+      "success": true
+    },
+    {
+      "path": "20260927T173052_9be35a2a",
+      "slot": 99,
+      "seed": 2027057,
+      "first_arm": "left",
+      "stack_order_bottom_to_top": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "routes": [
+        "staged_crossing",
+        "near_arc"
+      ],
+      "frames": 543,
+      "nearest_prior_world_m": 0.04908753196534288,
+      "nearest_prior_shape_m": 0.016207459002717958,
+      "success": true
+    }
+  ],
+  "failures": [],
+  "source_sha256": {
+    "environment.py": "5d9b32182931b0c81d88bd13cf0a8bc602c66a36052240088f787fa055561c6f",
+    "stack_expert.py": "86b3235ddac4f49ebefbe80fc526fbac7f4f12c9658441c8cd180b6d6f630ab9",
+    "diverse_stack.py": "ffc584bc8fffd7c5ccd08c0441ded12f4f8eb6c776d132cde89eca815faa9936",
+    "collect_stack_diverse.py": "de1222ae3071fac3c790c4649b2266269653f38f82821beaf646eb3a54050ed9",
+    "audit_stack_diversity.py": "9d7f1305b582d35c949ef955bb5aad2630277559a08defa4e458eecff6e8adc1",
+    "wide_stack.py": "a088bf38ad235be5b54d6eef6a026c45e9d2a26df748916045af848ce5a1b45e",
+    "map_stack_workspace.py": "0e1f34927448478c7171b493cc7f6369aa90145677f3251e162b1989e852a6c5"
+  },
+  "successful_frames": 51940,
+  "arm_order_counts": {
+    "right": 50,
+    "left": 50
+  },
+  "stack_order_counts": {
+    "red/green/blue": 17,
+    "red/blue/green": 17,
+    "green/red/blue": 17,
+    "green/blue/red": 17,
+    "blue/red/green": 16,
+    "blue/green/red": 16
+  }
+}

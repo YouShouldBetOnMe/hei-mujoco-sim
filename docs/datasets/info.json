@@ -1,0 +1,144 @@
+{
+    "codebase_version": "v3.0",
+    "fps": 10,
+    "features": {
+        "observation.state": {
+            "dtype": "float32",
+            "shape": [
+                18
+            ],
+            "names": [
+                "right_joint_1.pos",
+                "right_joint_2.pos",
+                "right_joint_3.pos",
+                "right_joint_4.pos",
+                "right_joint_5.pos",
+                "right_joint_6.pos",
+                "right_gripper.pos",
+                "left_joint_1.pos",
+                "left_joint_2.pos",
+                "left_joint_3.pos",
+                "left_joint_4.pos",
+                "left_joint_5.pos",
+                "left_joint_6.pos",
+                "left_gripper.pos",
+                "x.vel",
+                "y.vel",
+                "theta.vel",
+                "height.pos"
+            ]
+        },
+        "action": {
+            "dtype": "float32",
+            "shape": [
+                18
+            ],
+            "names": [
+                "right_joint_1.pos",
+                "right_joint_2.pos",
+                "right_joint_3.pos",
+                "right_joint_4.pos",
+                "right_joint_5.pos",
+                "right_joint_6.pos",
+                "right_gripper.pos",
+                "left_joint_1.pos",
+                "left_joint_2.pos",
+                "left_joint_3.pos",
+                "left_joint_4.pos",
+                "left_joint_5.pos",
+                "left_joint_6.pos",
+                "left_gripper.pos",
+                "x.vel",
+                "y.vel",
+                "theta.vel",
+                "height.pos"
+            ]
+        },
+        "observation.images.front": {
+            "dtype": "image",
+            "shape": [
+                224,
+                224,
+                3
+            ],
+            "names": [
+                "height",
+                "width",
+                "channels"
+            ]
+        },
+        "observation.images.left_wrist": {
+            "dtype": "image",
+            "shape": [
+                224,
+                224,
+                3
+            ],
+            "names": [
+                "height",
+                "width",
+                "channels"
+            ]
+        },
+        "observation.images.right_wrist": {
+            "dtype": "image",
+            "shape": [
+                224,
+                224,
+                3
+            ],
+            "names": [
+                "height",
+                "width",
+                "channels"
+            ]
+        },
+        "timestamp": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "frame_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "episode_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "task_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        }
+    },
+    "total_episodes": 100,
+    "total_frames": 51940,
+    "total_tasks": 1,
+    "chunks_size": 1000,
+    "data_files_size_in_mb": 100,
+    "video_files_size_in_mb": 200,
+    "data_path": "data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet",
+    "video_path": null,
+    "robot_type": "hei_rebot_lift_sim",
+    "splits": {
+        "train": "0:100"
+    }
+}
