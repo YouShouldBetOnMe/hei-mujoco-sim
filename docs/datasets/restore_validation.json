@@ -1,0 +1,14 @@
+{
+  "hei_stack100_workspace": {
+    "status": "passed",
+    "every_file_sha256_matches": true,
+    "files": 58,
+    "bytes": 4531671772
+  },
+  "hei_stack100_workspace_raw": {
+    "status": "passed",
+    "every_file_sha256_matches": true,
+    "files": 157023,
+    "bytes": 6109426637
+  }
+}

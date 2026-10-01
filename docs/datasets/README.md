@@ -74,7 +74,7 @@ validation = LeRobotDataset('local/hei_stack100_workspace', root=root,
 
 ## 验证与范围
 
-发布前重新解码全部三路 PNG，校验帧数、图像尺寸、时间对齐、状态/动作、物理轨迹、100 个不同种子/初始状态以及每条的连续 3 秒稳定堆叠成功证据。[audit_summary.json](audit_summary.json) 是本次发布审计；[validation_report.json](validation_report.json) 包含原有转换和 Diffusion Policy 输入批次检查。详细配置见 [simulation.json](simulation.json)，训练划分见 [splits.json](splits.json)。
+发布前重新解码全部三路 PNG，校验帧数、图像尺寸、时间对齐、状态/动作、物理轨迹、100 个不同种子/初始状态以及每条的连续 3 秒稳定堆叠成功证据。[audit_summary.json](audit_summary.json) 是本次发布审计；[validation_report.json](validation_report.json) 包含原有转换和 Diffusion Policy 输入批次检查。下载器完整恢复两种格式后，全部 157,081 个文件与原件逐一 SHA-256 比对通过，见 [restore_validation.json](restore_validation.json)。详细配置见 [simulation.json](simulation.json)，训练划分见 [splits.json](splits.json)。
 
 重力、接触和摩擦启用，物体没有在任务执行中被传送或挂接。机器人自身碰撞尚未启用，相机安装和动力学尚未实机标定。这是当前仿真任务的程序专家数据，不代表学得策略成功率、原论文基准成绩或真机迁移效果。
 

@@ -101,11 +101,17 @@ def restore(manifest, name, output, cache, verify_only):
     if Path(directory).name != directory:
         raise ValueError('Invalid dataset directory')
     target = output / directory
+    identity = dict(release_tag=manifest['release_tag'], variant=variant)
+    completed = output / ('.' + directory + '.release.json')
     if not verify_only and target.exists():
+        if completed.is_file() and json.loads(completed.read_text(encoding='utf-8')) == identity:
+            files = [path for path in target.rglob('*') if path.is_file()]
+            if len(files) == variant['file_count'] and sum(path.stat().st_size for path in files) == variant['uncompressed_bytes']:
+                print(f'Already restored: {target}', flush=True)
+                return
         raise FileExistsError(f'Refusing to overwrite existing dataset: {target}')
     stage = output / ('.' + directory + '.unpacking')
     marker = stage / '_release.json'
-    identity = dict(release_tag=manifest['release_tag'], variant=variant)
     if not verify_only:
         if stage.exists():
             if not marker.is_file() or json.loads(marker.read_text(encoding='utf-8')) != identity:
@@ -131,7 +137,7 @@ def restore(manifest, name, output, cache, verify_only):
     if len(files) != variant['file_count'] or sum(path.stat().st_size for path in files) != variant['uncompressed_bytes']:
         raise ValueError('Restored dataset inventory differs')
     restored.rename(target)
-    marker.unlink()
+    marker.replace(completed)
     stage.rmdir()
     print(f'Dataset restored: {target}', flush=True)
 
